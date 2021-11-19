@@ -1,0 +1,17 @@
+Internet - Entendendo como ela funciona
+
+Por que isso é importante?
+
+Como uma pessoa que irá desenvolver software para a internet, conhecer o seu funcionamento é um requisito primordial.
+
+É importante ter uma noção de como a rede da internet é estruturada, pois quando se pensa no design de uma aplicação web, por exemplo, temos que considerar fatores como a latência da rede, a geolocalização dos servidores, a velocidade e/ou disponibilidade de conexão dos usuários, enfim. 🔮
+
+Atualmente, a grande maioria das aplicações web são desenvolvidas usando o modelo Cliente & Servidor. É preciso entender esse modelo para entender como o software que vamos desenvolver se encaixa nele. Precisamos, em suma, saber como os servidores funcionam, para quando for colocar um projeto "no ar", ou "em produção". 🖥
+
+Dinâmicas
+
+1 - Fomos divididos em grupos e tivemos que discutir e escrever em um documento a resposta para a seguinte pergunta: Quando eu digito www.google.com no navegador e aperto "enter", o que acontece até o site aparecer para nós?
+
+Dadas as especificações para a entrega da tarefa, decidimos o nome do grupo e ficou assim lá no slack da tribo: [Post-it] [Sala 4] [Lontra Anônima] :lontra:
+
+2 - A segunda dinâmica foi mais complicada, pois tivemos que criar um "mapa" de como seria o caminho entre o cliente e o servidor. Também tivemos que escolher um integrante para apresentar o modelo que criamos.
