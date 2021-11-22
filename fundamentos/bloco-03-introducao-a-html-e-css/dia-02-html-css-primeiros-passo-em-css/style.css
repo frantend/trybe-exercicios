@@ -1,0 +1,37 @@
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+}
+
+ul {
+  background-color: peru;
+  line-height: 30px;
+}
+
+.fundo {
+  background-color:sandybrown;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+}
+
+body {
+  font-size: 16px;
+  text-align: center;
+}
+
+.li1 {
+  background-color: yellow;
+  font-style:italic
+}
+
+.li2 {
+  background-color: red;
+}
+
+.li3 {
+  background-color: brown;
+}
