@@ -18,10 +18,28 @@ let wordInverse = word.split('').reverse().join('');
 console.log(wordInverse);
 
 // 3- Considere o array de strings abaixo:
-// Copiar
 // let array = ['java', 'javascript', 'python', 'html', 'css'];
 // Escreva dois algoritmos: um que retorne a maior palavra deste array e outro que retorne a menor. Considere o número de caracteres de cada palavra.
 
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+
+let maior = array[0];
+let menor = array[0];
+
+for(let i=0; i<array.length; i+=1){
+  if(array[i].length > maior.length){
+    maior = array[i];
+  }
+}
+
+for(let i=0; i<array.length; i+=1){
+  if(array[i].length < menor.length){
+    menor = array[i];
+  }
+}
+
+console.log("Maior string: " + maior);
+console.log("Menor string: " + menor);
 
 
 // 4- Um número primo é aquele divisível apenas por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 0 e 50.
