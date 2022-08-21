@@ -9,6 +9,7 @@ Módulo (a % b) */
 
 const a = 2;
 const b = 3;
+
 let operacao = 'Módulo';
 
 switch(operacao) {
@@ -66,12 +67,32 @@ if(n1 > n2 && n1 > n3) {
 
 /* 4 - Faça um programa que, dado um valor recebido como parâmetro, retorne "positive" se esse valor for positivo, "negative" se for negativo, e caso não seja nem positivo e nem negativo retorne "zero". */
 
-const valor = 1;
+const valor = 0;
 
 if(valor > 0) {
   console.log('positive');
 } else if(valor < 0) {
   console.log('negative');
-} else if(valor === 0) {
+} else {
   console.log('zero')
+}
+
+
+/* 5 - Faça um programa que defina três variáveis com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
+Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
+Um ângulo será considerado inválido se não tiver um valor positivo.
+ */
+
+let anguloA = 1;
+let anguloB = 89;
+let anguloC = 90;
+
+if(anguloA > 0 && anguloB > 0 && anguloC > 0) {
+  if(anguloA + anguloB + anguloC == 180) {
+    console.log(true);
+  } else {
+    console.log(false);
+  }
+} else {
+  console.log('erro');
 }
