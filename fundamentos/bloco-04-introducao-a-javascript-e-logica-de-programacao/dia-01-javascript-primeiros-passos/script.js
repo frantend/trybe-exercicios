@@ -1,4 +1,4 @@
-// 15 Exercícios de Lógica, utilizando: lógica condicional (if/else e switch/case), operadores aritméticos (+, -, *, /, %) e operadores lógicos (>, <, &&, ||).
+// 11 Exercícios de Lógica, utilizando: lógica condicional (if/else e switch/case), operadores aritméticos (+, -, *, /, %) e operadores lógicos (>, <, &&, ||).
 
 /* 1 - Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b, definidas no começo com os valores que serão operados. Faça programas para:
 Adição (a + b)
@@ -180,9 +180,21 @@ const numero3 = 0;
 
 let verificador = false;
 
-if(numero1 >= 0 && numero2 >= 0 && numero3 >= 0) {
+if(numero1 >= 0 || numero2 >= 0 || numero3 >= 0) {
   verificador = true;
 }
 console.log(verificador);
 
 
+/* 9 - Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar. Caso contrário, ele retorna false. */
+
+const numero1 = -1;
+const numero2 = 10;
+const numero3 = 0;
+
+let verificador = false;
+
+if(numero1 % 2 !== 0 || numero2 % 2 !== 0 || numero3 % 2 !== 0) {
+  verificador = true;
+}
+console.log(verificador);
