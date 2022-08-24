@@ -172,3 +172,17 @@ if(nota < 0 || nota > 100){
 }
 
 
+/* 8 - Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false. */
+
+const numero1 = 10;
+const numero2 = -20;
+const numero3 = 0;
+
+let verificador = false;
+
+if(numero1 >= 0 && numero2 >= 0 && numero3 >= 0) {
+  verificador = true;
+}
+console.log(verificador);
+
+
