@@ -104,34 +104,71 @@ if(anguloA > 0 && anguloB > 0 && anguloC > 0) {
   Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
   Exemplo: bishop (bispo) -> diagonals (diagonais) */
 
-let pecaXadrez = 'Rainha'.toLowerCase();
+let pecaXadrez = 'REI';
 
-switch (pecaXadrez) {
+switch (pecaXadrez.toLowerCase()) {
 
   case 'rei' :
-    console.log('O rei pode mover-se em todas as direções (horizontal, vertical e diagonal) somente uma casa de cada vez.');
+    console.log(`O ${pecaXadrez} pode mover-se em todas as direções (horizontal, vertical e diagonal) somente uma casa de cada vez`);
     break;
 
   case 'rainha' :
-    console.log('A rainha move-se ao longo da horizontal, vertical e diagonais mas não pode pular outras peças.');
+    console.log(`A ${pecaXadrez} move-se ao longo da horizontal, vertical e diagonais mas não pode pular outras peças.`);
     break;
 
   case 'bispo' :
-    console.log('O bispo move-se ao longo da diagonal. Não pode pular outras peças.');
+    console.log(`O ${pecaXadrez} move-se ao longo da diagonal. Não pode pular outras peças.`);
     break;
 
   case 'cavalo' :
-    console.log('É a única peça que pode pular as outras. O movimento do cavalo é em forma de “L”, quer dizer, duas casas em sentido horizontal e mais uma na vertical ou vice-versa.');
+    console.log(`O ${pecaXadrez} a única peça que pode pular as outras. O movimento do cavalo é em forma de “L”, quer dizer, duas casas em sentido horizontal e mais uma na vertical ou vice-versa.`);
     break;
 
   case 'torre' :
-    console.log('A torre movimenta-se pela vertical ou horizontal, mas não pode pular outras peças.');
+    console.log(`A ${pecaXadrez} movimenta-se pela vertical ou horizontal, mas não pode pular outras peças.`);
     break;
 
   case 'peao' :
-    console.log('O peão movimenta-se apenas uma casa para frente e somente captura outras peças na diagonal. Opcionalmente, cada peão pode avançar duas casas no seu primeiro movimento do jogo.');
+    console.log(`O ${pecaXadrez} movimenta-se apenas uma casa para frente e somente captura outras peças na diagonal. Opcionalmente, cada peão pode avançar duas casas no seu primeiro movimento do jogo.`);
     break;
   
     default:
-      console.log('Peça não encontrada.')
+      console.log(`A peça ${pecaXadrez} não existe.`)
 }
+
+
+/* 7 - Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+Porcentagem >= 90 -> A
+Porcentagem >= 80 -> B
+Porcentagem >= 70 -> C
+Porcentagem >= 60 -> D
+Porcentagem >= 50 -> E
+Porcentagem < 50 -> F
+O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100. */
+
+let nota = 90;
+
+if(nota < 0 || nota > 100){
+  console.log('Erro, informação incorreta!');
+
+} else if(nota > 90) {
+  console.log('A');
+
+} else if(nota >= 80) {
+  console.log('B');
+
+} else if(nota >= 70) {
+  console.log('C');
+
+} else if(nota >= 60) {
+  console.log('D');
+
+} else if(nota >= 50) {
+  console.log('E');
+
+} else if(nota < 50) {
+  console.log('F');
+
+}
+
+
