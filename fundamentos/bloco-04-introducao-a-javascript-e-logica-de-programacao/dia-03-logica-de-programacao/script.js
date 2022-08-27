@@ -71,24 +71,44 @@ console.log(`A menor palavra no array é ${menorPalavra}`);
 
 /* 4- Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que retorne o maior número primo entre 2 e 50. */
 
+for(let numero = 2; numero <= 10; numero += 1) {
+  let ehPrimo = true;
 
+  for(let divisor = 2; divisor < numero; divisor += 1) {
+    if(numero % divisor === 0) {
+      ehPrimo = false;
+      break;
+    }
+  }
+
+  if(ehPrimo) console.log(numero);
+}
 
 /* Bônus
 1- Agora vamos trabalhar com algumas formas geométricas! Faça um programa que, dado um valor n qualquer, seja n > 1, imprima na tela um quadrado feito de asteriscos de lado de tamanho n. Por exemplo:
-Copiar
-n = 5
 
 *****
 *****
 *****
 *****
 *****
+
 */
+
+let n = 5;
+let simbolo = '*';
+let linha = '';
+
+for(let index = 0; index < n; index += 1) {
+  linha = linha + simbolo;
+}
+for(let index = 0; index < n; index += 1) {
+  console.log(linha)
+}
 
 
 
 /* 2- Para o segundo exercício, faça o mesmo que antes, mas que imprima um triângulo retângulo com 5 asteriscos de base. Por exemplo:
-Copiar
 n = 5
 
 *
@@ -96,12 +116,12 @@ n = 5
 ***
 ****
 *****
+
 */
 
 
 
 /* 3- Agora inverta o lado do triângulo. Por exemplo:
-Copiar
 n = 5
 
     *
@@ -115,7 +135,6 @@ Atenção! Note que esse exercício é bem mais complexo que o anterior! Não ba
 
 
 /* 4- Depois, faça uma pirâmide com n asteriscos de base:
-Copiar
 n = 5
 
   *
@@ -127,7 +146,6 @@ n = 5
 
 
 /* 5- Faça uma pirâmide com n asteriscos de base que seja vazia no meio. Assuma que o valor de n será sempre ímpar:
-Copiar
 Por último, façamos com que a variável seja incrementada com o valor correspondente a cada loop;
 n = 7
 
