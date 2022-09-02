@@ -68,8 +68,8 @@ function botaoFeriados(nome) {
 botaoFeriados('Feriados');
 
 
-// Exercício 3:
-// Implementar uma função que muda a cor de fundo dos dias que possuem a classe "holiday".
+// Exercício 3 - Implementar uma função que muda a cor de fundo dos dias que possuem a classe "holiday".
+
 
 function displayHolidays() {
   let getHolidayButton = document.querySelector('#btn-holiday');
