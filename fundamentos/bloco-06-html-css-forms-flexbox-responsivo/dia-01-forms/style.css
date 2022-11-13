@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(93, 96, 99);
+  background-color: rgb(234, 237, 240);
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.abertura {
+  text-align: center;
+  background-color: rgb(246, 247, 248);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  width: 80%;
+  margin: 40px 0;
+  padding: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.abertura h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.rotulo {
+  margin-bottom: 40px;
+}
+
+.rotulo input {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.rotulo label {
+  margin-bottom: 15px;
+}
+
+.conteudo {
+  margin: 20px;
+  border: 0 none;
+}
+
+.formulario {
+  background-color: rgb(246, 247, 248);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  width: 80%;
+  margin: 40px 0;
+  padding: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#resposta {
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
+
+.data-rotulo {
+  padding: 10px;
+  border-radius: 3px;
+  border-style:solid;
+  border: 2px solid rgb(214, 217, 220);
+}
+
+fieldset legend {
+  padding: 10px;
+}
+
+.conteudo input[type='date']{
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(214, 217, 220);
+  border-radius: 3px;
+  width: 30%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.conteudo button {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(180, 183, 186);
+  border-radius: 5px;
+  width: 15%;
+  padding: 7px;
+  font-size: 14px;
+  color:rgb(117, 119, 121);
+}
+
+.conteudo textarea {
+  padding: 5px;
+}
