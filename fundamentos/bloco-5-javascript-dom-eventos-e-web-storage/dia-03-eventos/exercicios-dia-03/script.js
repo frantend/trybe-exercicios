@@ -22,7 +22,6 @@ function criarDiasDoMes() {
     let ulDays = document.querySelector('#days');
     
     for(let index = 0; index < decemberDaysList.length; index += 1) {
-
       let liDay = document.createElement('li');
     
       let day = decemberDaysList[index];
