@@ -11,13 +11,11 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 1.3 - Introdução - Unix & Shell
 - [x] 1.3 - Unix & Bash - Parte 1
 - [x] 1.4 - Unix & Bash - Parte 2
-
-##### Bloco 2: [Git, GitHub e Internet](https://github.com/frantend/trybe-exercises)
 - [x] 2.1 - Git & GitHub  - O que é e para que serve
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-##### Bloco 3: [Introdução à HTML e CSS](https://github.com/frantend/trybe-exercises)
+##### Bloco 2: [Introdução à HTML e CSS](https://github.com/frantend/trybe-exercises)
 - [x] 3.1 - Introdução - HTML & CSS
 - [x] 3.1 - HTML & CSS - Estruturas de página
 - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
@@ -25,20 +23,19 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [x] 3.4 - HTML Semântico
 - [x] 3.5 - Projeto - Lessons Learned
 
-##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/frantend/trybe-exercises)
+##### Bloco 3: [Introdução à JavaScript e Lógica de Programação](https://github.com/frantend/trybe-exercises)
 - [x] 4.1 - Introdução - JavaScript
-- [ ] 4.1 - JavaScript - Primeiros passos
-- [ ] 4.2 - JavaScript - Array e loop For
-- [ ] 4.3 - JavaScript - Lógica de Programação e Algoritmos
-- [ ] 4.4 - JavaScript - Objetos e funções
-- [ ] 4.5 - Projeto - Playground Functions
+- [x] 4.1 - JavaScript - Primeiros passos
+- [x] 4.2 - JavaScript - Array e loop For
+- [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
+- [x] 4.4 - JavaScript - Objetos e funções
+- [x] 4.5 - Projeto - Playground Functions
 
-##### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/frantend/trybe-exercises)
-- [ ] 5.1 - JavaScript - DOM e seletores
-- [ ] 5.2 - JavaScript - Trabalhando com elementos
-- [ ] 5.3 - JavaScript - Eventos
-- [ ] 5.4 - JavaScript - Web Storage
-- [ ] 5.5 - Fundamentos - JavaScript - Projetos
+##### Bloco 4: [JavaScript: DOM, Eventos e Web Storage](https://github.com/frantend/trybe-exercises)
+- [x] 5.1 - JavaScript - DOM e seletores
+- [x] 5.2 - JavaScript - Trabalhando com elementos
+- [x] 5.3 - JavaScript - Eventos
+- [x] 5.4 - JavaScript - Web Storage
 - [ ] 5.5 - Projeto - Arte com Pixels
 - [ ] 5.6 - Projeto - Lista de tarefas
 - [ ] 5.7 - (Bônus) Projeto - Meme Generator
@@ -52,7 +49,7 @@ Contém todas as atividades desenvolvidas por __[mim](https://www.linkedin.com/i
 - [ ] 6.3 - CSS Flexbox - Parte 1
 - [ ] 6.4 - CSS Flexbox - Parte 2
 - [ ] 6.5 - CSS Responsivo - Mobile First
-- [ ] 6.6 - Projeto - Página inicial do Facebook
+- [ ] 6.6 - Projeto - Trybewarts
 
 ##### Bloco 7: [Introdução à JavaScript ES6 e Testes Unitários](https://github.com/frantend/trybe-exercises)
 - [ ] 7.1 - JavaScript ES6 - let, const, arrow functions e template literals
