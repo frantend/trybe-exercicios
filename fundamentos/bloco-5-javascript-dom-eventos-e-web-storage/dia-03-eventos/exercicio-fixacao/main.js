@@ -16,19 +16,24 @@ function addRemoveClassTech() {
     firstLi.classList.toggle(classTech);
     secondLi.classList.remove(classTech);
     thirdLi.classList.remove(classTech);
+    input.value = '';
   });
 
   secondLi.addEventListener("click", () => {
     secondLi.classList.toggle(classTech);
     firstLi.classList.remove(classTech);
     thirdLi.classList.remove(classTech);
+    input.value = '';
   });
 
   thirdLi.addEventListener("click", () => {
     thirdLi.classList.toggle(classTech);
     secondLi.classList.remove(classTech);
     firstLi.classList.remove(classTech);
+    input.value = '';
   });
+
+  
 }
 addRemoveClassTech();
 
