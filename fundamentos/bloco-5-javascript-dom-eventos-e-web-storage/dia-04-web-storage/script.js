@@ -4,7 +4,7 @@ const subtitulo = document.querySelector('.subtitulo');
 const texto = document.querySelector('.texto');
 
 
-// Mudar cor do funto
+// Mudar cor do funto e guardar no localStorage
 const btnBackgroundWhite = document.querySelector('.btn-background-white');
 const btnBackgroundBlack = document.querySelector('.btn-background-black');
 const btnBackgroundGreen = document.querySelector('.btn-background-green');
@@ -37,7 +37,7 @@ btnBackgroundYellow.addEventListener('click', () => {
 });
 
 
-// Mudar cor do texto
+// Mudar cor do texto e guardar no localStorage
 const btnColorBlack = document.querySelector('.btn-color-black');
 const btnColorRed = document.querySelector('.btn-color-red');
 const btnColorWhite = document.querySelector('.btn-color-white');
@@ -76,7 +76,7 @@ btnColorWhite.addEventListener('click', () => {
 });
 
 
-// Mudar tamanho da fonte
+// Mudar tamanho da fonte e guardar no localStorage
 const btnSize8 = document.querySelector('.btn-size-8');
 const btnSize10 = document.querySelector('.btn-size-10');
 const btnSize12 = document.querySelector('.btn-size-12');
@@ -128,7 +128,7 @@ btnSize20.addEventListener('click', () => {
 });
 
 
-// Mudar espaçamento entre as linhas
+// Mudar espaçamento entre as linhas e guardar no localStorage
 const btnLine1 = document.querySelector('.btn-line-1');
 const btnLineNormal = document.querySelector('.btn-line-normal');
 const btnLine15 = document.querySelector('.btn-line-1-5');
@@ -161,7 +161,7 @@ btnLine3.addEventListener('click', () => {
 });
 
 
-// Mudar tipo da fonte
+// Mudar tipo da fonte e guardar no localStorage
 const btnFontArial = document.querySelector('.btn-font-arial');
 const btnFontTimes = document.querySelector('.btn-font-times');
 
@@ -182,9 +182,6 @@ btnFontTimes.addEventListener('click', () => {
   subtitulo.style.fontFamily = 'Times',
   texto.style.fontFamily = 'Times');
 });
-
-
-
 
 
 // Recupera estilos
