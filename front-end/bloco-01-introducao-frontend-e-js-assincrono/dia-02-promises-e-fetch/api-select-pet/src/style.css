@@ -1,0 +1,23 @@
+body {
+  width: 800px;
+  margin: 30px auto;
+  text-align: center;
+  background-image: url('https://img.freepik.com/free-vector/tracks-pattern-design_1298-56.jpg?w=740&t=st=1679579507~exp=1679580107~hmac=3e5d36dcb63ff521e011ddd76bc8bae371aab86bfb3a5c6f03e628fe144c4e18');
+}
+
+h1 {
+  margin-bottom: 20px;
+  background-color: rgb(245, 210, 53);
+}
+
+button {
+  margin-right: 15px;
+}
+
+.img-container {
+  margin: 20px auto;
+}
+
+img {
+  max-width: 400px;
+}

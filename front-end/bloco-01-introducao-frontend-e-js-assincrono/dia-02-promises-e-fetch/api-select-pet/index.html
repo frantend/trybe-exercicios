@@ -1,12 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="./src/style.css">
   <title>Select Pet</title>
 </head>
 <body>
+  <h1>Select Pet</h1>
+  <div class="container btn-container">
+    <button id="dog" class="btn btn-dark">Get random dog</button>
+    <button id="cat" class="btn btn-dark">Get random cat</button>
+    <button id="surprise" class="btn btn-dark">Surprise me</button>
+  </div>
+  <div class="container img-container">
+    <img id="img" src="" alt="Random pet" class="border border-5">
+  </div>
   <script src="./src/main.js" type="module"></script>
 </body>
 </html>
