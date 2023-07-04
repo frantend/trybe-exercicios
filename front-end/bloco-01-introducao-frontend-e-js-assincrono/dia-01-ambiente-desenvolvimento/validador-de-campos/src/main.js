@@ -31,3 +31,5 @@ button.addEventListener('click', (event) => {
   // selecionar a chave de acordo com o selecionado no HTML
   textoDeSaida.innerHTML = `A validação retornou ${campos[seletor.value]}`;
 });
+
+// RODAR O PROJETO: npm run dev
