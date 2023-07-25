@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.7.20",
     "vite": "^4.4.7"
   }
 }
