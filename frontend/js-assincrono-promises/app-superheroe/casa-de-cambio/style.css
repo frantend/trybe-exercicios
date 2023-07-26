@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap');
+
+* {
+  font-family: 'Fira Code', monospace;
+}
+
+body {
+  background-color: #282C33;
+  color: white;
+}
+
+#container {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+header {
+  margin: 20px auto;
+}
+
+h1 {
+  color: #FFF;
+  font-family: Fira Code;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+span {
+  color: #95EBA8;
+  font-family: Fira Code;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+label {
+  color: #FFF;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 20px;
+}
+
+input {
+  background: rgba(217, 217, 217, 0.10);
+  font-family: Fira Code;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  padding: 0px 20px 0px;
+  width: 171px;
+  height: 48px;
+}
+
+input:valid {
+  outline: none;
+  color: white;
+}
+
+button {
+  color: #373737;
+  font-family: Fira Code;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 10px;
+  border: 1px solid #96EB95;
+  background: #96EB95;
+  width: 171px;
+height: 48px;
+  
+}
+
+main {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.06);
+  min-width: 100%;
+  min-height: 583px;
+  padding-top: 12px;
+}
+
+#h2 {
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 160px;
+  background: rgba(9, 9, 9, 0.526);
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  border-radius: 5px;
+  /* color: #FFE713; */
+}
+
+li::content {
+  color: #FFE713;
+}
