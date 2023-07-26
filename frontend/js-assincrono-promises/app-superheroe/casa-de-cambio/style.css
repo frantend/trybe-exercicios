@@ -2,6 +2,11 @@
 
 * {
   font-family: 'Fira Code', monospace;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -14,22 +19,17 @@ body {
   margin: 0 auto;
 }
 
-header {
-  margin: 20px auto;
-}
-
 h1 {
   color: #FFF;
-  font-family: Fira Code;
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin: 30px 0;
 }
 
-span {
-  color: #95EBA8;
-  font-family: Fira Code;
+h1 span {
+  color: #dc7a35;
   font-size: 60px;
   font-style: normal;
   font-weight: 700;
@@ -47,7 +47,6 @@ label {
 
 input {
   background: rgba(217, 217, 217, 0.10);
-  font-family: Fira Code;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -56,6 +55,7 @@ input {
   padding: 0px 20px 0px;
   width: 171px;
   height: 48px;
+  margin: 15px auto;
 }
 
 input:valid {
@@ -64,26 +64,60 @@ input:valid {
 }
 
 button {
-  color: #373737;
-  font-family: Fira Code;
+  color: white;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   border-radius: 10px;
-  border: 1px solid #96EB95;
-  background: #96EB95;
+  border: 1px solid #dc7a35;
+  background: #dc7a35;
   width: 171px;
-height: 48px;
-  
+  height: 48px;
+  margin-bottom: 50px;
+}
+
+button:hover {
+  background: #e28645;
 }
 
 main {
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.06);
-  min-width: 100%;
+  max-width: 840px;
   min-height: 583px;
-  padding-top: 12px;
+  max-height: 583px;
+  padding: 15px;
+}
+
+#conteudo {
+  margin-top: 5px;
+  max-width: 100%;
+  max-height: 500px;
+  overflow: auto;
+}
+
+/* Personalize a barra de rolagem */
+#conteudo::-webkit-scrollbar {
+  width: 7px; 
+  /* Largura da barra de rolagem vertical */
+}
+
+#conteudo::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.06); 
+  /* Cor do fundo da track (faixa) */
+}
+
+#conteudo::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.06); 
+  /* Cor do thumb (alça) da barra de rolagem */
+  border-radius: 5px;
+   /* Borda arredondada */
+}
+
+#conteudo::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.204); 
+  /* Cor do thumb quando o mouse passa por cima */
 }
 
 #h2 {
@@ -96,15 +130,20 @@ ul {
 }
 
 li {
-  width: 160px;
+  width: 180px;
   background: rgba(9, 9, 9, 0.526);
   padding: 10px;
   margin: 10px;
   list-style: none;
   border-radius: 5px;
-  /* color: #FFE713; */
 }
 
-li::content {
+li:hover {
+  background: rgba(9, 9, 9, 0.708);
+
+}
+
+.valorSpan {
+  margin-left: 10px;
   color: #FFE713;
 }
