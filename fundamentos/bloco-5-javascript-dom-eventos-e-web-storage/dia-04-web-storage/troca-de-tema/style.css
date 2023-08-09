@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containe {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.white {
+  background-color: white;
+  color: black
+}
+
+.black {
+  background-color: rgb(34, 33, 33);
+  color: white
+}
+
+button {
+margin-bottom: 5%;
+}
