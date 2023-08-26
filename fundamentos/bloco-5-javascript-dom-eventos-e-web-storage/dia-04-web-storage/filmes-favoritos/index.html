@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="./index.js" defer></script>
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Filmes Favoritos</title>
 </head>
+
 <body>
+  <div id="header">
+    <h1><img id="logo" src="./logo.png"></img></h1>
+    <nav>
+      <a href="https://github.com/frantend" target="_blank" alt="github" >GITHUB</a>
+      <a href="https://www.linkedin.com/in/francinefigueiredo/" target="_blank" alt="linkedin">LINKEDIN</a>
+      <a href="https://www.instagram.com/franfigueiredoo/" target="_blank" alt="instagram" >INSTAGRAM</a>
+    </nav>
+  </div>
   <form>
-    <input type="text" name="" id="input">
-    <button type="button">Adicionar</button>
+    <label for="capa">Filme:</label>
+    <input type="text" id="capa" placeholder="Link da capa">
+    <input type="text" id="titulo" placeholder="Título do filme">
+    <input type="text" id="descricao" placeholder="Breve descrição">
+    <button type="button">ADICIONAR</button>
   </form>
   <ul></ul>
 </body>
+
 </html>
