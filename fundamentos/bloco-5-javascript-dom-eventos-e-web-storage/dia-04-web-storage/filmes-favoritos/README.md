@@ -10,7 +10,7 @@ O resultado da aplicação pode ser acessado através da seguinte URL: [Filmes F
 
 ## 🎨 Layout
 
-<img alt="layout-filmes-favoritos" src="layout-filmes-favoritos.png" width="800px">
+<img alt="layout-filmes-favoritos" src="./layout-filmes-favoritos.png" width="800px">
 
 
 ## 👩‍💻 Habilidades Desenvolvidas neste projeto

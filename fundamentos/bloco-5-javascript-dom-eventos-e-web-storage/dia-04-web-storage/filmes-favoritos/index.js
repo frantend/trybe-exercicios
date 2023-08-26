@@ -1,16 +1,3 @@
-// Exercício proposto por chatgpt
-// Exercício 1 - Lista de Filmes Favoritos
-// Nível: Iniciante
-
-// Descrição: Crie uma aplicação que permita ao usuário adicionar e remover filmes de uma lista de filmes favoritos utilizando o localStorage para armazenar os dados.
-
-// Recursos:
-
-// Um formulário com um campo para inserir o nome do filme.
-// Uma lista para mostrar os filmes favoritos do usuário.
-// Botões para adicionar e remover filmes da lista.
-
-//salvar elementos que serão manipulados
 const inputTitulo = document.querySelector('#titulo');
 const inputImagem = document.querySelector('#capa');
 const inputDescricao = document.querySelector('#descricao')
