@@ -24,7 +24,7 @@
 A **Tarefas** é uma aplicação que permite ao usuário adicionar e remover tarefas.
 
 <p align="center">
-  <a href="./lista-tarefas.gif" title="filmes-favoritos"><img src="./lista-tarefas.gif" alt="filmes-favoritos"></a><div><a href="/" title="make a gif"></a></div>
+  <a href="./lista-tarefas.gif" title="lista-tarefas"><img src="./lista-tarefas.gif" alt="lista-tarefas"></a><div><a href="/" title="make a gif"></a></div>
 <p>
 
 
@@ -56,8 +56,8 @@ A **Tarefas** é uma aplicação que permite ao usuário adicionar e remover tar
   - `CSS (Cascading Style Sheets)`
   > O CSS é usado para estilizar páginas da web e controlar a apresentação visual do conteúdo HTML. Ele define regras de estilo, como cores, fontes, margens e espaçamento.
   - `JavaScript`
-  > O JavaScript é uma linguagem de programação de alto nível usada para adicionar interatividade e funcionalidade a páginas da web. No projeto "Filmes Favoritos", o JavaScript é usado para adicionar e remover filmes da lista, armazenar filmes no localStorage e manipular eventos do usuário.
+  > O JavaScript é uma linguagem de programação de alto nível usada para adicionar interatividade e funcionalidade a páginas da web. No projeto "Lista de Tarefas", o JavaScript é usado para adicionar e remover tarefas da lista, armazenar tarefas no localStorage e manipular eventos do usuário.
   - `localStorage`
-  > O localStorage é uma API do navegador que permite armazenar dados localmente no dispositivo do usuário. É usado no projeto para armazenar a lista de filmes favoritos, garantindo que os dados persistam mesmo após o fechamento do navegador.
+  > O localStorage é uma API do navegador que permite armazenar dados localmente no dispositivo do usuário. É usado no projeto para armazenar a lista de tarefas, garantindo que os dados persistam mesmo após o fechamento do navegador.
  - `Netlify`
   > O Netlify é uma plataforma de hospedagem e implantação para sites e aplicativos da web, oferecendo integração contínua, hospedagem de alto desempenho, certificados SSL gratuitos e implantação automática a partir de repositórios Git. É usado para disponibilizar projetos web na internet.
