@@ -6,7 +6,7 @@ const empty = document.querySelector('.empty');
 const arrayTarefas = JSON.parse(localStorage.getItem('tarefas')) || [];
 
 const atualizaPagina = () => {
-  
+
   arrayTarefas.forEach(element => {
     const li = document.createElement('li');
     const p = document.createElement('p');
@@ -16,11 +16,16 @@ const atualizaPagina = () => {
 
     li.appendChild(addDeleteBtn());
     ul.appendChild(li);
-    });
+  });
+
+  if (ul.children.length > 0) {
     empty.style.display = 'none';
+  }
+
 }
 
 const criarElementos = () => {
+  empty.style.display = 'none';
   const text = input.value;
 
   if (!text) {
