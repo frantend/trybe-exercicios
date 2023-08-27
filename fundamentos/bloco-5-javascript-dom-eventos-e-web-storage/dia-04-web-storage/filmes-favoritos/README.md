@@ -1,19 +1,35 @@
 
-# Filmes Favoritos
+<h1 align="center">
+  FILMES FAVORITOS 🍿
+</h1>
 
-## 💻 Projeto
+<h3 align="center">
+  HTML | CSS | Javascript
+</h3>
 
-Descrição: Criei uma aplicação que permite ao usuário adicionar e remover filmes de uma lista de filmes favoritos utilizando o localStorage para persistir os dados.
+<p align="center">
+  <a href="#bookmark-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-habilidades">Habilidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://meus-filmes-favoritos.netlify.app/" target="_blank">Aplicação na Netlify</a>
+</p>
 
-O resultado da aplicação pode ser acessado através da seguinte URL: [Filmes Favoritos](https://meus-filmes-favoritos.netlify.app/)
+<p align="center">
+  <img alt="design do projeto" width="650px" src="./layout-filmes-favoritos.png" />
+<p>
 
 
-## 🎨 Layout
+## :bookmark: Sobre
 
-<img alt="layout-filmes-favoritos" src="./layout-filmes-favoritos.png" width="800px">
+O **Filmes Favoritos** é uma aplicação que permite ao usuário adicionar e remover filmes de uma lista de filmes favoritos utilizando o localStorage para persistir os dados.
+
+<p align="center">
+  <a href="/gif/filmes-favoritos-v2xpv4" title="filmes-favoritos"><img src="https://i.makeagif.com/media/8-26-2023/v2xpv4.gif" alt="filmes-favoritos"></a><div><a href="/" title="make a gif"></a></div>
+<p>
 
 
-## 👩‍💻 Habilidades Desenvolvidas neste projeto
+
+## :computer: Habilidades
 
 **Manipulação do DOM**: Criar, modificar e remover elementos HTML usando JavaScript para atualizar dinamicamente a página.
 
@@ -40,7 +56,9 @@ O resultado da aplicação pode ser acessado através da seguinte URL: [Filmes F
 **Validação de Entrada do Usuário**: Implementar validações de entrada para garantir que os campos não fiquem em branco.
 
 
-## 📝 Requisitos Funcionais
+## :bookmark: Requisitos
+
+### Requisitos Funcionais
 
 **1. Formulário de Inserção de Filmes**:
 Deve haver um formulário com campos para inserir informações sobre um filme: link da capa, título do filme e breve descrição.
@@ -64,7 +82,8 @@ Os filmes favoritos adicionados à lista devem ser armazenados localmente no nav
 **7. Responsividade**:
 A aplicação deve ser responsiva e adaptar-se a diferentes tamanhos de tela usando media queries.
 
-## 📝 Requisitos de Estilo:
+
+### Requisitos de Estilo:
 
 **1. Estilo Geral**:
 O estilo geral da aplicação deve ser atraente e consistente.
@@ -83,8 +102,10 @@ As imagens dos filmes devem ser exibidas com uma largura fixa e ter uma borda ar
 **5. Links de Redes Sociais**:
 Se houver links para redes sociais no cabeçalho (GitHub, LinkedIn, Instagram), eles devem ter uma aparência atraente e estar acessíveis.
 
-## 📝 Requisitos de Comportamento:
-1. Validação de Entrada:
+
+### Requisitos de Comportamento:
+
+**1. Validação de Entrada**:
 Deve haver validação de entrada para garantir que os campos do formulário não fiquem em branco.
 
 **2. Adicionar Filmes**:
@@ -95,3 +116,18 @@ O botão "Excluir" deve remover um filme da lista quando pressionado.
 
 **4. Armazenamento Local**:
 Os filmes favoritos adicionados devem ser armazenados corretamente no localStorage para que possam ser recuperados quando a página for recarregada.
+
+## :rocket: Tecnologias
+
+  - `HTML (HyperText Markup Language)`
+  > O HTML é a linguagem de marcação usada para estruturar o conteúdo da página da web. Ele define elementos e tags que representam diferentes tipos de conteúdo, como texto, imagens, formulários e links.
+  - `CSS (Cascading Style Sheets)`
+  > O CSS é usado para estilizar páginas da web e controlar a apresentação visual do conteúdo HTML. Ele define regras de estilo, como cores, fontes, margens e espaçamento.
+  - `JavaScript`
+  > O JavaScript é uma linguagem de programação de alto nível usada para adicionar interatividade e funcionalidade a páginas da web. No projeto "Filmes Favoritos", o JavaScript é usado para adicionar e remover filmes da lista, armazenar filmes no localStorage e manipular eventos do usuário.
+  - `localStorage`
+  > O localStorage é uma API do navegador que permite armazenar dados localmente no dispositivo do usuário. É usado no projeto para armazenar a lista de filmes favoritos, garantindo que os dados persistam mesmo após o fechamento do navegador.
+  - `Media Queries`
+  > As media queries são recursos do CSS que permitem criar regras de estilo condicionais com base nas características do dispositivo, como largura da tela. No projeto, as media queries são usadas para tornar a aplicação responsiva, adaptando-a a diferentes tamanhos de tela.
+ - `Netlify`
+  > O Netlify é uma plataforma de hospedagem e implantação para sites e aplicativos da web, oferecendo integração contínua, hospedagem de alto desempenho, certificados SSL gratuitos e implantação automática a partir de repositórios Git. É usado para disponibilizar projetos web na internet.
