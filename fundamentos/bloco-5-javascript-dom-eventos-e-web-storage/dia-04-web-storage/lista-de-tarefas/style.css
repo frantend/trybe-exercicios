@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 * {
   margin: 0 auto;
@@ -10,7 +10,7 @@
 
 body {
   background-color: rgb(174, 46, 234);
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .container {
@@ -29,7 +29,7 @@ header p {
 }
 
 header h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 100px;
 }
 
@@ -68,15 +68,13 @@ form input {
   flex-grow: 1;
   margin-right: 10px;
   outline: none;
-  font-family: 'Noto Sans', sans-serif;
-
+  font-family: "Noto Sans", sans-serif;
 }
 
 form input::placeholder {
   padding-left: 10px;
   color: #4d4c4c;
-  font-family: 'Noto Sans', sans-serif;
-  /* font-weight: 500; */
+  font-family: "Noto Sans", sans-serif;
 }
 
 form button {
@@ -84,7 +82,7 @@ form button {
   background-color: rgb(118, 46, 234);
   font-size: 20px;
   padding: 12px 20px;
-  border:rgb(140, 46, 234);
+  border: rgb(140, 46, 234);
   border-radius: 3px;
 }
 
@@ -111,7 +109,7 @@ li button {
   background-color: rgb(118, 46, 234);
   font-size: 15px;
   padding: 10px;
-  border:rgb(140, 46, 234);
+  border: rgb(140, 46, 234);
   border-radius: 3px;
   margin-bottom: 10px;
   width: 35px;
