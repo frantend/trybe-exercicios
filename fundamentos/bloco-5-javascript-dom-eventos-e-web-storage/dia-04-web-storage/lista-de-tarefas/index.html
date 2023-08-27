@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Lista de Tarefas</title>
   </head>
+
   <body>
     <div class="container">
-      <h1>Lista de Tarefas</h1>
-      <div class="search">
+      <header>
+        <p class="date"></p>
+        <h1>Tarefas</h1>
+      </header>
+      <main>
         <form>
-          <input type="text" placeholder="Adicionar tarefa..." />
-          <button class="btn-add">+</button>
+          <input
+            type="text"
+            placeholder="Adicionar tarefa..."
+            class="form-control"
+          />
+          <button class="btn-add input-group-text">+</button>
         </form>
-      </div>
-      <div class="li-container">
-        <ul></ul>
-      </div>
-      <div class="empty">
-        <p>Sem tarefas pendentes.</p>
-      </div>
-    </div>
+        <ul>
+          <p class="empty">Sem tarefas pendentes.</p>
+        </ul>
+      </main>
+      <footer>
+        Feito por <strong><a href="https://github.com/frantend">Francine Figueiredo</a></strong> com HTML, CSS, JavaScript e ♡
+      </footer>
     </div>
     <script src="main.js"></script>
   </body>
