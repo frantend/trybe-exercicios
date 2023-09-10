@@ -104,7 +104,7 @@ form button:hover {
   text-align: left;
 }
 
-li button {
+li button, li span {
   color: white;
   background-color: rgb(118, 46, 234);
   font-size: 15px;
@@ -112,10 +112,11 @@ li button {
   border: rgb(140, 46, 234);
   border-radius: 3px;
   margin-bottom: 10px;
+  margin-left: 5px;
   width: 35px;
 }
 
-li button:hover {
+li button:hover, li span:hover {
   background-color: rgb(140, 46, 234);
   width: 37px;
   font-size: 16px;
