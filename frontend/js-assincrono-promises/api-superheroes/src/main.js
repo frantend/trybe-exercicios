@@ -6,10 +6,11 @@ const nome = document.getElementById('nome-heroe');
 const botao = document.querySelector('button');
 const MAX_HEROES = 1000;
 
+const gerarId = () => Math.floor(Math.random() * MAX_HEROES);
+
 botao.addEventListener('click', (e) => {
-  const id = Math.floor(Math.random() * MAX_HEROES);
   e.preventDefault();
-  fetch(`https://superheroapi.com/api.php/6156720867705062/${id}`)
+  fetch(`https://superheroapi.com/api.php/6156720867705062/${gerarId()}`)
     .then((resposta) => resposta.json())
     .then((dados) => {
       imagem.src = dados.image.url;
