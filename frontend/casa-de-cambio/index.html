@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Casa de Câmbio</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Casa de <span>Câmbio</span></h1>
+      <div id="input-container">
+        <label for="input-moeda">Digite a moeda:
+          <input type="text" id="input-moeda" placeholder="USD">
+        </label>
+        <button id="button-search">Pesquisar</button>
+      </div>
+      <div id="result-container">
+        <h2>Valores referentes a 1 USD</h2>
+        <ul id="list-result"></ul>
+      </div>
+    </div>
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
